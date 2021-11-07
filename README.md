@@ -1,4 +1,4 @@
-# Girls-Frontline-emoji-for-waline [![](https://data.jsdelivr.com/v1/package/gh/Small-tailqwq/WaLine-emoji/badge)](https://www.jsdelivr.com/package/gh/Small-tailqwq/WaLine-emoji)
+# 2stabApe-emoji-for-waline [![](https://data.jsdelivr.com/v1/package/gh/Small-tailqwq/WaLine-emoji/badge)](https://www.jsdelivr.com/package/gh/Small-tailqwq/WaLine-emoji)
 WaLine 的二次元表情包，取自 `B站` 
 自己调了一些喜欢的自己用，注意！***无授权，非商用***
 
