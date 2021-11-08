@@ -8,11 +8,9 @@
 
 ## 使用方法  
 
-在客户端的 `WaLine` 配置下添加 `emoji` 的值为即可
+进入这个链接，选择自己想要的表情包点进去，复制 url 填入即可  
 ```
-https://cdn.jsdelivr.net/gh/Small-tailqwq/WaLine-emoji@1.2/%E5%B0%91%E5%89%8D%E5%B0%8F%E5%89%A7%E5%9C%BA/  
-https://cdn.jsdelivr.net/gh/Small-tailqwq/WaLine-emoji@1.2/%E8%9B%86%E9%9F%B3%E5%A8%98/
-更多……
+https://cdn.jsdelivr.net/gh/Small-tailqwq/WaLine-emoji@1.1.1/
 ```
   
 
