@@ -1,8 +1,10 @@
 # 2stabApe-emoji-for-waline ![logo](logo.png) [![](https://data.jsdelivr.com/v1/package/gh/Small-tailqwq/WaLine-emoji/badge)](https://www.jsdelivr.com/package/gh/Small-tailqwq/WaLine-emoji)
-适配 WaLine 的 *第三方* 二次元表情包，来源为 [Bilibili](https://www.bilibili.com)或者 [AcFun](https://acfun.cn) ~~以后加点Ac娘表情包~~  
+适配 WaLine 的 *第三方* 二次元表情包，来源为 [Bilibili](https://www.bilibili.com) 或者 [AcFun](https://acfun.cn) 
 
-自己挑了一些喜欢的自己用  
-注意！***无授权，非商用***
+
+  
+***注意！注意！注意！注意！注意！注意！注意！注意！注意！注意！
+本库表情包未获得任何授权，禁止任何组织或个人以任何形式的商用***
 
 ## 使用方法  
 
@@ -10,12 +12,14 @@
 ```
 https://cdn.jsdelivr.net/gh/Small-tailqwq/WaLine-emoji@1.1/%E5%B0%91%E5%89%8D%E5%B0%8F%E5%89%A7%E5%9C%BA/  
 https://cdn.jsdelivr.net/gh/Small-tailqwq/WaLine-emoji@1.1/%E8%9B%86%E9%9F%B3%E5%A8%98/
+更多……
 ```
   
 
 具体配置可以参考 [WaLine官方文档](https://waline.js.org/guide/client/emoji.html#%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85)
 
 
+## 你问我答
 
 > emoji 图标很小啊，效果很差怎么办啊？  
 
@@ -39,3 +43,14 @@ https://cdn.jsdelivr.net/gh/Small-tailqwq/WaLine-emoji@1.1/%E8%9B%86%E9%9F%B3%E5
 }
 </style>
 ```
+
+> 为什么表情包基本全是中文，url 都不好分辨
+
+我不会英文，懒得翻译，再说老外应该也没有这方面的需求。url 方面先忍忍，`又不是不能用.jpg`  
+
+
+## 更新日志
+
+*2021-11-08*  
+`[+]` 添加了 A站 目前 *网页版所有的* 表情包，由于数量过于庞大可能存在 bug。如果遇到了欢迎反馈    
+* 新建文本文档是A站给的表情包，有时间按类型去重再整合一下，嫌我慢也可以自己下下来整
