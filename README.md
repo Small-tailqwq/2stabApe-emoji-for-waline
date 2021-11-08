@@ -10,7 +10,7 @@
 
 进入这个链接，选择自己想要的表情包点进去，复制 url 填入即可  
 ```
-https://cdn.jsdelivr.net/gh/Small-tailqwq/WaLine-emoji@1.1.1/
+https://cdn.jsdelivr.net/gh/Small-tailqwq/2stabApe-emoji-for-waline@1.1.1/
 ```
   
 
