@@ -1,4 +1,4 @@
-# 2stabApe-emoji-for-waline ![logo](logo.png) [![](https://data.jsdelivr.com/v1/package/gh/Small-tailqwq/WaLine-emoji/badge)](https://www.jsdelivr.com/package/gh/Small-tailqwq/WaLine-emoji)
+# 2stabApe-emoji-for-waline ![logo](logo.png) [![](https://data.jsdelivr.com/v1/package/gh/Small-tailqwq/2stabApe-emoji-for-waline/badge)](https://www.jsdelivr.com/package/gh/Small-tailqwq/2stabApe-emoji-for-waline)
 适配 WaLine 的 *第三方* 二次元表情包，来源为 [Bilibili](https://www.bilibili.com) 或者 [AcFun](https://acfun.cn) 
 
 
@@ -10,7 +10,7 @@
 
 进入这个链接，选择自己想要的表情包点进去，复制 url 填入即可  
 ```
-https://cdn.jsdelivr.net/gh/Small-tailqwq/WaLine-emoji@1.1.1/
+https://cdn.jsdelivr.net/gh/Small-tailqwq/2stabApe-emoji-for-waline@1.1.1/
 ```
 
 ### 关于 jsdelivr 爆炸
