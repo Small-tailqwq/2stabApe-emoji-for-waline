@@ -12,7 +12,13 @@
 ```
 https://cdn.jsdelivr.net/gh/Small-tailqwq/WaLine-emoji@1.1.1/
 ```
-  
+
+### 关于 jsdelivr 爆炸
+
+最近大伙也基本都发现了 `cdn.jsdelivr.net` 被 dns 污染一事吧，我也换掉了自己网站上的 js 啥的就是了
+顺带给这表情包丢阿里云的 OSS 里了，大陆访问速度很不错，原来有用这表情包的把 `cdn.jsdelivr.net` 换成 `hayasa.oss-cn-hangzhou.aliyuncs.com` 即可
+
+*顺带一提之前好像有哪个表情包有问题来着，不过现在也已经忘了，有记得的提醒我一下*
 
 具体配置可以参考 [WaLine官方文档](https://waline.js.org/guide/client/emoji.html#%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85)
 
