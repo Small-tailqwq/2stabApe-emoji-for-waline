@@ -15,8 +15,13 @@ https://cdn.jsdelivr.net/gh/Small-tailqwq/2stabApe-emoji-for-waline@1.1.1/
 
 ### 关于 jsdelivr 爆炸
 
-最近大伙也基本都发现了 `cdn.jsdelivr.net` 被 dns 污染一事吧，我也换掉了自己网站上的 js 啥的就是了
-顺带给这表情包丢阿里云的 OSS 里了，大陆访问速度很不错，原来有用这表情包的把 `cdn.jsdelivr.net` 换成 `hayasa.oss-cn-hangzhou.aliyuncs.com` 即可
+最近大伙也基本都发现了 `cdn.jsdelivr.net` 被 dns 污染一事吧，我也换掉了自己网站上的 js 啥的就是了  
+顺带把这表情包丢阿里云的 OSS 里了，大陆访问速度很不错，还开了 cdn 加速  
+原来有用这表情包的把 `cdn.jsdelivr.net` 换成 `hayasaoss.oss-accelerate.aliyuncs.com` 即可  
+如：  
+```
+https://hayasaoss.oss-accelerate.aliyuncs.com/gh/Small-tailqwq/WaLine-emoji@1.1.1/AC娘/
+```
 
 *顺带一提之前好像有哪个表情包有问题来着，不过现在也已经忘了，有记得的提醒我一下*
 
@@ -27,33 +32,59 @@ https://cdn.jsdelivr.net/gh/Small-tailqwq/2stabApe-emoji-for-waline@1.1.1/
 
 > emoji 图标很小啊，效果很差怎么办啊？  
 
-我的建议是，在 html 代码处添加如下 css 代码，其中 `3.5em` 可以自行调整
+我的建议是，在 html 代码处添加如下 css 代码，其中 `3.5em` 可以自行调整  
+另外 waline2 之后对样式名称有些许改变，改一改继续用~
 
 ```html
+// waline2 之前的版本
 <style>
-.v[data-class=v] .vcontent .vemoji {
-    width: 3.5em !important;
-}
+    .v[data-class=v] .vcontent .vemoji {
+        width: 3.5em !important;
+    }
+</style>
+// waline2 之后的版本
+<style>
+    .wl-content .vemoji, .wl-content .wl-emoji {
+        height: 3.5em !important;
+    }
 </style>
 ```
 > 表情候选框里的表情也好小啊，都看不清
 
 我的建议是，同样更改 css 样式。其中参数可以自行在F12内调整尝试再进行修改，最好确保移动端不会太大，PC端不会太小。
 ```html
+// waline2 之前的版本
 <style>
     .v[data-class=v] .vemoji-popup .vemoji {
     max-width: 2em !important;
     max-height: 3.5em !important;
 }
 </style>
+// waline2 之后的版本
+<style>
+    .wl-emoji-popup .wl-emoji {
+        max-width: 2em !important;
+        max-height: 3.5em !important;
+    }
+</style>
 ```
 
 > 为什么表情包基本全是中文，url 都不好分辨
 
-我不会英文，懒得翻译，再说老外应该也没有这方面的需求。url 方面先忍忍，`又不是不能用.jpg`  
+不会英文，懒得翻译，再说老外应该也没有这方面的需求。url 方面直接用中文就完事了呗，`又不是不能用.jpg`  
 
+> 不懂啊，那你能帮帮我吗
+
+看图 
+~~哦，这当然是一张老图，但是不影响理解就是了~~ 
+![截图001](/%E6%88%AA%E5%9B%BE001.png)
 
 ## 更新日志
+
+*2022-05-19*
+`[~]` 连夜把表情包丢 oss 上了，不知道阿里那玩意一年得花多少钱，合适就继续搞，当然你也可以直接下载下来自己丢服务器上。  
+具体可以查看 Waline 官方文档  
+
 
 *2021-11-08*  
 `[+]` 添加了 A站 目前 *网页版所有的* 表情包，由于数量过于庞大可能存在 bug。如果遇到了欢迎反馈    
