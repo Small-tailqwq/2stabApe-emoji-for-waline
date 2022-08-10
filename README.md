@@ -8,24 +8,22 @@
 
 ## 使用方法  
 
-进入这个链接，选择自己想要的表情包点进去，复制 url 填入即可  
+> 可参考[官方文档](https://waline.js.org/reference/component.html#emoji)  
+
+进入这个链接，选择自己想要的表情包点进去，复制 url 栏的链接填入 Waline 即可  
 ```
 https://cdn.jsdelivr.net/gh/Small-tailqwq/2stabApe-emoji-for-waline@1.1.1/
 ```
 
 ### 关于 jsdelivr 爆炸
 
-最近大伙也基本都发现了 `cdn.jsdelivr.net` 被 dns 污染一事吧，我也换掉了自己网站上的 js 啥的就是了  
-顺带把这表情包丢阿里云的 OSS 里了，大陆访问速度很不错，还开了 cdn 加速  
-原来有用这表情包的把 `cdn.jsdelivr.net` 换成 `hayasaoss.oss-accelerate.aliyuncs.com` 即可  
-如：  
-```
-https://hayasaoss.oss-accelerate.aliyuncs.com/gh/Small-tailqwq/WaLine-emoji@1.1.1/AC娘/
-```
+之前 jsd 的 cdn 全面爆炸了，如果有需要可以使用我自己提供的国内 CDN  
+把 `cdn.jsdelivr.net` 替换为 `hayasa.skadi.top` 即可
+> 当然，能 cdn 的仅限我这个表情包库（不然呢？）
+且最新的表情可能得等我手动同步
 
-*顺带一提之前好像有哪个表情包有问题来着，不过现在也已经忘了，有记得的提醒我一下*
 
-具体配置可以参考 [WaLine官方文档](https://waline.js.org/guide/client/emoji.html#%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85)
+*顺带一提之前好像有哪个表情包有问题来着，不过现在也已经忘了，如果在使用时发现了记得开个 issues 提醒我一下*
 
 
 ## 你问我答
@@ -81,9 +79,12 @@ https://hayasaoss.oss-accelerate.aliyuncs.com/gh/Small-tailqwq/WaLine-emoji@1.1.
 
 ## 更新日志
 
-*2022-05-19*
+*2022-08-10*  
+`[+]` 更新了塔菲表情包喵，包括粉丝装扮以及直播间表情，未来可能还会更新其他管人的表情，不过得找有粉丝装扮的猴米毛才行（自己没买）
+
+*2022-05-19*  
 `[~]` 连夜把表情包丢 oss 上了，不知道阿里那玩意一年得花多少钱，合适就继续搞，当然你也可以直接下载下来自己丢服务器上。  
-具体可以查看 Waline 官方文档  
+
 
 
 *2021-11-08*  
